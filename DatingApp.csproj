@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AngularJS.Core" Version="1.8.2" />
+    <PackageReference Include="AngularJS.Route" Version="1.8.2" />
     <PackageReference Include="HtmlTags" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
@@ -23,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="client\src\app\_modules\" />
     <Folder Include="client\src\app\_services\" />
     <Folder Include="client\ssl\" />
   </ItemGroup>
